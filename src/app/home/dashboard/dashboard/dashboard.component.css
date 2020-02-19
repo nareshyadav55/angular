@@ -1,0 +1,89 @@
+.section-head {
+
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  margin: 0 -10px;
+}
+
+.row>[class*=col-] {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.row>[class*=col-]>* {
+  height: 100%;
+}
+
+.card-row>li {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.card-row>li:nth-child(odd) {
+  width: 28%;
+}
+
+.card-row>li:nth-child(even) {
+  width: 22%;
+}
+
+@media (min-width: 1600px) {
+  .col-xxl-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .card-row>li {
+    width: 33.33% !important;
+  }
+
+  .card-row>li:last-child {
+    padding-left: 0px !important
+  }
+}
+
+.card-row>li:first-child {
+  padding-left: 0;
+}
+
+
+.card-row>li>* {
+  height: 100%;
+}
+
+.number {
+  font-size: 3.6rem;
+}
+
+.school-data label {
+  font-weight: 400;
+  margin: 0;
+}
+
+.school-data .number {
+  font-size: 2rem;
+}
+
+.table th {
+  font-weight: 400 !important;
+}
+
+.table tr>th:first-child {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.table>thead>tr>th:not(:first-child),
+.table td {
+  text-align: center;
+}
+
+.table td {
+  font-size: 2rem;
+}
+
